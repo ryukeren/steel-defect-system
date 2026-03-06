@@ -38,3 +38,11 @@ jobs:
     - name: Push Dashboard Docker image
       run: |
         docker push ryukeren/steel-defect-dashboard:latest
+        - name: Run tests
+    - name: Install test dependencies
+      run: |
+        pip install pytest
+
+    - name: Run API tests
+      run: |
+        pytest
