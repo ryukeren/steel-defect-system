@@ -201,7 +201,7 @@ async def predict(file: UploadFile = File(...)):
         logging.error(f"Prediction error: {str(e)}")
 
         return JSONResponse(
-            status_code=500,
+            status_code=400,
             content={
                 "status": "error",
                 "message": str(e)
