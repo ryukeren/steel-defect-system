@@ -8,3 +8,5 @@ streamlit
 requests
 pandas
 python-multipart
+httpx
+pytest
