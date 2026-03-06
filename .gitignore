@@ -4,3 +4,6 @@ venv/
 inspection_logs.json
 results/
 .env
+logs/
+results/
+viv.txt 
