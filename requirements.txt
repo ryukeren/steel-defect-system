@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+onnxruntime
+opencv-python
+numpy
+pillow
+streamlit
+requests
+pandas
+python-multipart
