@@ -21,7 +21,7 @@ jobs:
 
     - name: Install test dependencies
       run: |
-        pip install pytest fastapi uvicorn
+        pip install pytest fastapi uvicorn httpx
 
     - name: Run API tests
       run: |
