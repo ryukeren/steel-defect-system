@@ -35,7 +35,7 @@ Production Analytics
 
 ---
 
-## Installation
+## Installation process
 
 Install dependencies
 
